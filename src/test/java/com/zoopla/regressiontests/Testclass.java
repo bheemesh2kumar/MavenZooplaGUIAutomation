@@ -9,6 +9,8 @@ public class Testclass {
 	public void show()
 	{
 		System.out.println("test method");
+		System.out.println("test method2");
+		
 	}
 
 }
