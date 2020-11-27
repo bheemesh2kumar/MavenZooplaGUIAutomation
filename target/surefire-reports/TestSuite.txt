@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 5, Errors: 0, Skipped: 10, Time elapsed: 72.907 sec <<< FAILURE! - in TestSuite
+displayemptable(com.zoopla.regressiontests.DBvalidationTest)  Time elapsed: 0.259 sec  <<< FAILURE!
+java.lang.UnsupportedClassVersionError: com/microsoft/sqlserver/jdbc/SQLServerDriver has been compiled by a more recent version of the Java Runtime (class file version 58.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at com.zoopla.regressiontests.DBvalidationTest.displayemptable(DBvalidationTest.java:17)
+
+forsalehyperlinkvalidaation(com.zoopla.regressiontests.ZooplaForSaleTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.regressiontests.ZooplaForSaleTest.forsalehyperlinkvalidaation(ZooplaForSaleTest.java:17)
+
+teardown(com.zoopla.regressiontests.ZooplaForSaleTest)  Time elapsed: 0.101 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+validatenewhomesforsalepageadvancefilters(com.zoopla.regressiontests.ZooplanewhomeforsaleTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.regressiontests.ZooplanewhomeforsaleTest.validatenewhomesforsalepageadvancefilters(ZooplanewhomeforsaleTest.java:26)
+
+teardown(com.zoopla.regressiontests.ZooplanewhomeforsaleTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+

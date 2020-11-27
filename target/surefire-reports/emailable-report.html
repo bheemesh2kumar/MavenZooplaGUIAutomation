@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">3</td><td class="num">65,437</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.zoopla.regressiontests.ZooplaForSaleTest</td><td><a href="#m0">teardown</a></td><td rowspan="1">1601980914075</td><td rowspan="1">81</td></tr><tr class="failedodd"><td rowspan="1">com.zoopla.regressiontests.ZooplanewhomeforsaleTest</td><td><a href="#m1">teardown</a></td><td rowspan="1">1601980948733</td><td rowspan="1">2</td></tr><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.zoopla.regressiontests.DBvalidationTest</td><td><a href="#m2">displayemptable</a></td><td rowspan="1">1601980883575</td><td rowspan="1">191</td></tr><tr class="failedodd"><td rowspan="1">com.zoopla.regressiontests.ZooplaForSaleTest</td><td><a href="#m3">forsalehyperlinkvalidaation</a></td><td rowspan="1">1601980914060</td><td rowspan="1">7</td></tr><tr class="failedeven"><td rowspan="1">com.zoopla.regressiontests.ZooplanewhomeforsaleTest</td><td><a href="#m4">validatenewhomesforsalepageadvancefilters</a></td><td rowspan="1">1601980948721</td><td rowspan="1">5</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.zoopla.regressiontests.BaseTest</td><td><a href="#m5">endreport</a></td><td rowspan="1">1601980948770</td><td rowspan="1">-1601980948770</td></tr><tr class="skippedodd"><td rowspan="4">com.zoopla.regressiontests.ZooplaForSaleTest</td><td><a href="#m6">setup</a></td><td rowspan="2">1601980914184</td><td rowspan="2">-1601980914184</td></tr><tr class="skippedodd"><td><a href="#m7">setup</a></td></tr><tr class="skippedodd"><td><a href="#m8">teardown</a></td><td rowspan="2">1601980914181</td><td rowspan="2">-1601980914181</td></tr><tr class="skippedodd"><td><a href="#m9">teardown</a></td></tr><tr class="skippedeven"><td rowspan="2">com.zoopla.regressiontests.ZooplanewhomeforsaleTest</td><td><a href="#m10">setup</a></td><td rowspan="1">1601980948748</td><td rowspan="1">-1601980948748</td></tr><tr class="skippedeven"><td><a href="#m11">teardown</a></td><td rowspan="1">1601980948767</td><td rowspan="1">-1601980948767</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.zoopla.regressiontests.ZooplaForSaleTest</td><td><a href="#m12">propertiesforsalesearch</a></td><td rowspan="1">1601980914174</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">ukpropertyforsalepagevalidation</a></td><td rowspan="1">1601980914190</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.zoopla.regressiontests.ZooplanewhomeforsaleTest</td><td><a href="#m14">validatenewhomesforsalepagetitle</a></td><td rowspan="1">1601980948759</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.zoopla.regressiontests.ZooplaForSaleTest#teardown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=forsalehyperlinkvalidaation status=FAILURE method=ZooplaForSaleTest.forsalehyperlinkvalidaation()[pri:0, instance:com.zoopla.regressiontests.ZooplaForSaleTest@548a102f] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.BaseTest.teardown(BaseTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.zoopla.regressiontests.ZooplanewhomeforsaleTest#teardown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=validatenewhomesforsalepageadvancefilters status=FAILURE method=ZooplanewhomeforsaleTest.validatenewhomesforsalepageadvancefilters()[pri:0, instance:com.zoopla.regressiontests.ZooplanewhomeforsaleTest@5762806e] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.BaseTest.teardown(BaseTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.zoopla.regressiontests.DBvalidationTest#displayemptable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.UnsupportedClassVersionError: com/microsoft/sqlserver/jdbc/SQLServerDriver has been compiled by a more recent version of the Java Runtime (class file version 58.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.zoopla.utilities.DatabaseConnector.getdbconnection(DatabaseConnector.java:11)
+	at com.zoopla.regressiontests.DBvalidationTest.displayemptable(DBvalidationTest.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.zoopla.regressiontests.ZooplaForSaleTest#forsalehyperlinkvalidaation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.ZooplaForSaleTest.forsalehyperlinkvalidaation(ZooplaForSaleTest.java:17)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.zoopla.regressiontests.ZooplanewhomeforsaleTest#validatenewhomesforsalepageadvancefilters</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.ZooplanewhomeforsaleTest.validatenewhomesforsalepageadvancefilters(ZooplanewhomeforsaleTest.java:26)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.zoopla.regressiontests.BaseTest#endreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.zoopla.regressiontests.ZooplaForSaleTest#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.zoopla.regressiontests.ZooplaForSaleTest#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.zoopla.regressiontests.ZooplaForSaleTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.zoopla.regressiontests.ZooplaForSaleTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.zoopla.regressiontests.ZooplanewhomeforsaleTest#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.zoopla.regressiontests.ZooplanewhomeforsaleTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.zoopla.regressiontests.ZooplaForSaleTest#propertiesforsalesearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.BaseTest.teardown(BaseTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.zoopla.regressiontests.ZooplaForSaleTest#ukpropertyforsalepagevalidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.BaseTest.teardown(BaseTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.zoopla.regressiontests.ZooplanewhomeforsaleTest#validatenewhomesforsalepagetitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.zoopla.regressiontests.BaseTest.teardown(BaseTest.java:93)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

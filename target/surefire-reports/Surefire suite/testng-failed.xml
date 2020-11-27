@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.zoopla.regressiontests.DBvalidationTest">
+        <methods>
+          <include name="displayemptable"/>
+        </methods>
+      </class> <!-- com.zoopla.regressiontests.DBvalidationTest -->
+      <class name="com.zoopla.regressiontests.ZooplanewhomeforsaleTest">
+        <methods>
+          <include name="validatenewhomesforsalepagetitle"/>
+          <include name="endreport"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="validatenewhomesforsalepageadvancefilters"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.zoopla.regressiontests.ZooplanewhomeforsaleTest -->
+      <class name="com.zoopla.regressiontests.ZooplaForSaleTest">
+        <methods>
+          <include name="forsalehyperlinkvalidaation"/>
+          <include name="ukpropertyforsalepagevalidation"/>
+          <include name="endreport"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="propertiesforsalesearch"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.zoopla.regressiontests.ZooplaForSaleTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

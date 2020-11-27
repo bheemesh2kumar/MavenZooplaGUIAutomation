@@ -1,0 +1,4 @@
+com\zoopla\regressiontests\BaseTest.class
+com\zoopla\regressiontests\ZooplanewhomeforsaleTest.class
+com\zoopla\regressiontests\ZooplaForSaleTest.class
+com\zoopla\regressiontests\DBvalidationTest.class
